@@ -235,11 +235,11 @@ Vocab List: ${vocabList}
     }
 
     // Update final output when input fields change
-    document.querySelectorAll('#setting, #scenario, #register, #activity-length, #tutor-role, #tutee-role, #format')
+    document.querySelectorAll('#setting, #scenario, #register, #activity-length, #tutor-role, #tutee-role, #format, #vocab-list')
       .forEach(input => input.addEventListener('input', updateTextAreas));
 
     // Update final output when input fields change
-    document.querySelectorAll('#setting, #scenario, #register, #activity-length, #tutor-role, #tutee-role, #format')
+    document.querySelectorAll('#setting, #scenario, #register, #activity-length, #tutor-role, #tutee-role, #format, #vocab-list')
       .forEach(input => input.addEventListener('input', toggleCopyButton));
 
     // Dynamically add checkboxes
