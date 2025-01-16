@@ -192,6 +192,7 @@
       const activityLength = document.getElementById('activity-length').value;
       const tutorRole = document.getElementById('tutor-role').value;
       const tuteeRole = document.getElementById('tutee-role').value;
+      const vocabList = document.getElementById('vocab-list').value;
 
       const finalOutput = `
 The tutor can ONLY USE ${checkedItems.join(', and the tutor can ONLY USE ')}.
@@ -216,6 +217,7 @@ Activity Length: ${activityLength}
 Tutor Role: ${tutorRole}
 Tutee Role: ${tuteeRole}
 Format: ${format}
+Vocab List: ${vocabList}
       `.trim();
 
       document.getElementById('final-output').value = finalOutput;
